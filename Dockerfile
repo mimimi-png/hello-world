@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM quay.io/bitnami/golang:1.17.7
 
 ADD src/hello-world.go hello-world.go
 
