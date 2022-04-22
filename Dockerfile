@@ -1,4 +1,4 @@
-FROM quay.io/bitnami/golang:1.17.7
+FROM quay.io/projectquay/golang:1.17
 
 ADD src/hello-world.go hello-world.go
 
